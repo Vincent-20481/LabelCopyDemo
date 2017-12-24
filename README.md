@@ -10,5 +10,5 @@ V博:我就是我20481     欢迎留言
 
 
 
-![image](https://github.com/GitHubazuo/LabelCopyDemo/blob/master/DemoGIF.gif)
+![image](https://raw.githubusercontent.com/GitHubazuo/LabelCopyDemo/master/000000.gif)
 
