@@ -16,6 +16,9 @@
 		1825C89B1DB9E01600142122 /* LabelCopyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C89A1DB9E01600142122 /* LabelCopyDemoTests.m */; };
 		1825C8A61DB9E01600142122 /* LabelCopyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C8A51DB9E01600142122 /* LabelCopyDemoUITests.m */; };
 		1825C8B51DB9E03F00142122 /* EwenCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825C8B41DB9E03F00142122 /* EwenCopyLabel.m */; };
+		503672C21FEFBE5600DAE031 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503672C01FEFBE5600DAE031 /* NextViewController.m */; };
+		503672C31FEFBE5600DAE031 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 503672C11FEFBE5600DAE031 /* NextViewController.xib */; };
+		503672C61FEFBEB300DAE031 /* NextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 503672C51FEFBEB300DAE031 /* NextTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,11 @@
 		1825C8A71DB9E01600142122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1825C8B31DB9E03F00142122 /* EwenCopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EwenCopyLabel.h; sourceTree = "<group>"; };
 		1825C8B41DB9E03F00142122 /* EwenCopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EwenCopyLabel.m; sourceTree = "<group>"; };
+		503672BF1FEFBE5600DAE031 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		503672C01FEFBE5600DAE031 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		503672C11FEFBE5600DAE031 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		503672C41FEFBEB300DAE031 /* NextTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextTableViewCell.h; sourceTree = "<group>"; };
+		503672C51FEFBEB300DAE031 /* NextTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,11 @@
 				1825C8861DB9E01500142122 /* ViewController.h */,
 				1825C8871DB9E01500142122 /* ViewController.m */,
 				1825C8891DB9E01500142122 /* Main.storyboard */,
+				503672BF1FEFBE5600DAE031 /* NextViewController.h */,
+				503672C01FEFBE5600DAE031 /* NextViewController.m */,
+				503672C11FEFBE5600DAE031 /* NextViewController.xib */,
+				503672C41FEFBEB300DAE031 /* NextTableViewCell.h */,
+				503672C51FEFBEB300DAE031 /* NextTableViewCell.m */,
 				1825C88C1DB9E01500142122 /* Assets.xcassets */,
 				1825C88E1DB9E01500142122 /* LaunchScreen.storyboard */,
 				1825C8911DB9E01500142122 /* Info.plist */,
@@ -255,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1825C8901DB9E01500142122 /* LaunchScreen.storyboard in Resources */,
+				503672C31FEFBE5600DAE031 /* NextViewController.xib in Resources */,
 				1825C88D1DB9E01500142122 /* Assets.xcassets in Resources */,
 				1825C88B1DB9E01500142122 /* Main.storyboard in Resources */,
 			);
@@ -281,7 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503672C21FEFBE5600DAE031 /* NextViewController.m in Sources */,
 				1825C8B51DB9E03F00142122 /* EwenCopyLabel.m in Sources */,
+				503672C61FEFBEB300DAE031 /* NextTableViewCell.m in Sources */,
 				1825C8881DB9E01500142122 /* ViewController.m in Sources */,
 				1825C8851DB9E01500142122 /* AppDelegate.m in Sources */,
 				1825C8821DB9E01500142122 /* main.m in Sources */,
@@ -522,6 +538,7 @@
 				1825C8AC1DB9E01600142122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1825C8AD1DB9E01600142122 /* Build configuration list for PBXNativeTarget "LabelCopyDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +547,7 @@
 				1825C8AF1DB9E01600142122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1825C8B01DB9E01600142122 /* Build configuration list for PBXNativeTarget "LabelCopyDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +556,7 @@
 				1825C8B21DB9E01600142122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

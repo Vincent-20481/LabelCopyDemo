@@ -8,11 +8,10 @@
 
 #import "ViewController.h"
 #import "EwenCopyLabel.h"
+#import "NextViewController.h"
 /**
  屏幕大小宏定义
  */
-#define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
-#define SCREENHEIGHT [[UIScreen mainScreen] bounds].size.height
 #define kScreenBounds ([[UIScreen mainScreen] bounds])
 #define kScreenwidth (kScreenBounds.size.width)
 #define kScreenheight (kScreenBounds.size.height)
@@ -31,8 +30,15 @@
     self.label.text = @"长按可复制的Label（仿微信）长按可复制的Label（仿微信）长按可复制的Label（仿微信）";
     [self.view addSubview:self.label];
     
-    
 }
+
+- (IBAction)next:(id)sender {
+    NextViewController *next = [NextViewController new];
+    [self.navigationController pushViewController:next animated:YES];
+}
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
